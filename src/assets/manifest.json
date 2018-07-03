@@ -1,0 +1,19 @@
+{
+    "fonts": {
+        "files": [
+            {
+                "type": "bitmapFont",
+                "key": "nescyrillic",
+                "textureURL": "fonts/nescyrillic.png",
+                "fontDataURL": "fonts/nescyrillic.fnt"
+            }
+        ]
+    },
+    "meta": {
+        "generated": "1530652385373",
+        "app": "Jumper",
+        "url": "https://github.com/nunof07/jumper",
+        "version": "1.0",
+        "copyright": "Nuno Freitas 2018"
+    }
+}

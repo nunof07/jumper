@@ -1,0 +1,31 @@
+language: node_js
+node_js:
+  - "node"
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+before_install:
+  - '[[ $(node -v) =~ ^v9.*$ ]] || npm install -g npm@latest'
+  - npm install -g greenkeeper-lockfile@1
+  - npm install -g codecov
+install:
+  - greenkeeper-lockfile-update
+  - npm ci
+before_script:
+  - npm prune
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build --debug
+script:
+  - npm run test:coverage
+  - npm run ci:build
+after_success:
+  - codecov
+  # fetch all tags (semantic-release needs this so it can check last release using git)
+  - git config --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/*
+  - git fetch --tags
+  - npm run release
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT --debug
+  - greenkeeper-lockfile-upload
