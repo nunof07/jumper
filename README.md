@@ -11,7 +11,7 @@
 [![Files](https://tokei.rs/b1/github/nunof07/jumper?category=files)](https://github.com/Aaronepower/tokei)
 
 [![Dependencies](https://david-dm.org/nunof07/jumper.svg)](https://david-dm.org/nunof07/jumper)
-[![Development Dependencies](https://david-dm.org/nunof07/jumper/dev-status.svg)](https://david-dm.org/nunof07/jumper?type=dev)
+[![Development Dependencies](https://david-dm.org/nunof07/jumper/dev-status.svg)](https://david-dm.org/nunof07/jumper?type=dev) [![Greenkeeper badge](https://badges.greenkeeper.io/nunof07/jumper.svg)](https://greenkeeper.io/)
 
 Platformer game made with [Phaser 3](http://phaser.io/).
 
