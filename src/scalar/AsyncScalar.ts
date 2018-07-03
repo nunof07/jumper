@@ -1,4 +1,4 @@
-import { Scalar } from '@src/core/Scalar';
+import { Scalar } from '@src/scalar/Scalar';
 
 export class AsyncScalar<T> implements Scalar<T> {
     private readonly func: () => T;

@@ -1,4 +1,4 @@
-import { Scalar } from '@src/core/Scalar';
+import { Scalar } from '@src/scalar/Scalar';
 
 export class ScalarOf<T> implements Scalar<T> {
     private readonly valueImpl: T;

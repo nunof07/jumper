@@ -1,8 +1,8 @@
-import { AsyncScalar } from '@src/core/AsyncScalar';
-import { CachedScalar } from '@src/core/CachedScalar';
+import { AsyncScalar } from '@src/scalar/AsyncScalar';
+import { CachedScalar } from '@src/scalar/CachedScalar';
 import { expect } from 'chai';
 
-describe('core/CachedScalar', () => {
+describe('scalar/CachedScalar', () => {
     describe('#value', () => {
         it('should only calculate result once', () => {
             let x = 1;
