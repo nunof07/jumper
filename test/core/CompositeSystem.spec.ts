@@ -17,7 +17,7 @@ function createSystems(length: number): ReadonlyArray<SystemSpy> {
     }, length);
 }
 
-describe('core/Composite', () => {
+describe('core/CompositeSystem', () => {
     let composite: CompositeSystem;
     let systems: ReadonlyArray<SystemSpy>;
 
