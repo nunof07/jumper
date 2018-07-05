@@ -80,7 +80,7 @@ module.exports = {
     plugins: [
         new HardSourceWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Space Patrol',
+            title: 'Jumper',
             hash: false,
             minify: {
                 collapseWhitespace: false,
