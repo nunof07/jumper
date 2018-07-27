@@ -4,7 +4,7 @@ const mockCanvas = require('./mockCanvas');
 //const mockImage = require('./mockImage');
 
 const html = '<!doctype html><html><body><div id="game"></div></body></html>';
-const jsdom = new JSDOM(html, { resources: 'usable' });
+const jsdom = new JSDOM(html, { url: 'file://', resources: 'usable' });
 const { window } = jsdom;
 
 global.window = window;
