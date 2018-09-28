@@ -104,7 +104,7 @@
         "webpack-node-externals": "1.7.2"
     },
     "dependencies": {
-        "@babel/runtime": "7.0.0-beta.53",
+        "@babel/runtime": "7.1.2",
         "phaser": "3.11.0",
         "ramda": "0.25.0",
         "random-js": "1.0.8"
