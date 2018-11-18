@@ -106,7 +106,7 @@
     "dependencies": {
         "@babel/runtime": "7.0.0-beta.53",
         "phaser": "3.11.0",
-        "ramda": "0.25.0",
+        "ramda": "0.26.0",
         "random-js": "1.0.8"
     }
 }
