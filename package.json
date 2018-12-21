@@ -83,7 +83,7 @@
         "semantic-release": "15.9.5",
         "sinon": "6.1.0",
         "style-loader": "0.21.0",
-        "thread-loader": "1.2.0",
+        "thread-loader": "2.1.0",
         "ts-loader": "4.4.2",
         "tsconfig-paths-webpack-plugin": "3.2.0",
         "tslint": "5.10.0",
