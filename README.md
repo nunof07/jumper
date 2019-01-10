@@ -15,7 +15,9 @@
 
 Platformer game made with [Phaser 3](http://phaser.io/).
 
-Work in Progress.
+## Status
+
+Abandoned.
 
 ## Credits
 
